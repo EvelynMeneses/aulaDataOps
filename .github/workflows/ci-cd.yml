@@ -25,4 +25,4 @@ jobs:
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Instalar dependências
-        run: poetry install
+        run: poetry install --no-root
